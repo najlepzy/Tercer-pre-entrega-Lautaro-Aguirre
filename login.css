@@ -1,0 +1,60 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/strawberry-g5aba668cc_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(80%);
+}
+
+form {
+    color: white;
+    height: 400px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.19);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    text-align: center;
+}
+h1{
+    font-size:28px;
+    margin: 2rem;
+}
+#grupo{
+    margin: 3rem;
+}
+input {
+    display: block;
+    margin: 1rem auto;
+}
+button{
+    margin: 2rem;
+    height: 1.5rem;
+    width: 5rem;
+}
+.warnings{
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding: 20px;
+    text-shadow: 5px black;
+}
+/*  background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
